@@ -1,0 +1,227 @@
+@font-face {
+    font-family: Whyte;
+    src: url(..assets/Whyte-Book.otf);
+    font-family: Whyte Inktrap;
+    src: url(..assets/Whyte-Inktrap-Meduim.otf);
+}
+
+.bg {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.container {
+    width: 100%;
+}
+
+.chat-box {
+    background-color: #121212;
+    width: 1000px;
+    height: 640px;
+    border: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 20px 20px 40px rgba(0,0,0,0.3);
+}
+
+.inner-box {
+    background-color: #121212;
+    margin-top: 30px;
+    width: 1000px;
+    height: 580px;
+    border-top: 1px solid #959595;
+    border-bottom: 1px solid #959595;
+    display: flex;
+}
+
+.entry {
+    color: white;
+    display: flex;
+    width: 600px;
+    height: 580px;
+    margin-left: 20px;
+}
+
+.diary-content {
+    display: flex;
+    width: 580px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.menu-block {
+    background-color: #121212;
+    display: flex;
+    height: 60px;
+    border-bottom: 1px solid #959595;
+    border-right: 1px solid #959595;
+}
+
+.menu-block:hover {
+    background-color: #222121;
+}
+
+.menu-block-last {
+    background-color: #121212;
+    color: white;
+    display: flex;
+    height: 60px;
+    border-right: 1px solid #959595;
+}
+
+.icon {
+    display: flex;
+    width: 60px;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+.icon img {
+    height: 35px;
+    width: 35px;
+}
+
+.channel-text {
+    margin-top: 10px;
+    width: 300px;
+    margin-left: 10px;
+    line-height: 120%;
+    font-weight: 200;
+}
+
+.title {
+    color: white;
+    text-align: left;
+    font-family: Whyte Inktrap;
+    font-size: 14px;
+    font-weight: 400;
+    border-bottom-color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.message {
+    color: #DDDDDD;
+    text-align: left;
+    font-family: Whyte;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.time-date {
+    color: #959595;
+    text-align: right;
+    font-family: Whyte;
+    font-size: 10px;
+    width: 60px;
+    padding-right: 10px;
+}
+
+.date {
+    padding-top: 14px;
+}
+
+.time {
+    padding-top: 14px;
+}
+
+.day {
+    color: white;
+    padding-top: 25px;
+    text-align: center;
+    font-family: Whyte Inktrap;
+    font-size: 14px;
+}
+
+.chat-block {
+    background-color: #222121;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.chat-text {
+    color: #DDDDDD;
+    text-align: left;
+    font-family: Whyte;
+    font-size: 14px;
+    line-height: 140%;
+    font-weight: 200;
+}
+
+.chat-time {
+    color: #959595;
+    align-self: flex-end;
+    text-align: right;
+    font-family: Whyte;
+    font-size: 10px;
+}
+
+.size-1 {
+    width: 200px;
+}
+
+.size-2 {
+    width: 280px;
+}
+
+.size-3 {
+    width: 360px;
+}
+
+.size-4 {
+    width: 460px;
+}
+
+.size-5 {
+    width: 510px;
+}
+
+.pic-1 img {
+    width: 200px;
+    padding-bottom: 15px;
+}
+
+.pic-2 img {
+    width: 280px;
+    padding-bottom: 15px;
+}
+
+.pic-3 img {
+    width: 360px;
+    padding-bottom: 15px;
+}
+
+.pic-4 img {
+    width: 460px;
+    padding-bottom: 15px;
+}
+
+.pic-5 img {
+    width: 510px;
+    padding-bottom: 15px;
+}
+
+.pic-h315 img {
+    height: 315px;
+    padding-bottom: 15px;
+}
+
+@media screen and (max-width: 1080px) {
+    .bg {
+        background-color:red;
+    }
+  }
