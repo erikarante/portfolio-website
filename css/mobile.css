@@ -11,6 +11,23 @@
 
 .mob-menu-block {
     display: flex;
+    flex-direction: row;
     height: 60px;
     border-bottom: 1px solid #959595;
+}
+
+.mob-channel-text {
+    margin-top: 10px;
+    width: 100%;
+    margin-left: 10px;
+    line-height: 120%;
+    font-weight: 200;
+}
+
+.mob-time-date {
+    color: white;
+    text-align: right;
+    font-family: Whyte;
+    font-size: 10px;
+    padding-right: 15px;
 }
