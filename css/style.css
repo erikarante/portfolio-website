@@ -35,18 +35,13 @@
 }
 
 .oval {
+    display: flex;
+}
+
+.oval img {
     width: 12px;
     height: 12px;
-    border-radius: 40px;
-}
-
-.red {
-    background-color: tomato;
-}
-
-.green {
-    margin-left: 5px;
-    background-color: springgreen;
+    padding-left: 5px;
 }
 
 .window-title {
