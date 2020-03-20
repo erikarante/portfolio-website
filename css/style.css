@@ -1,8 +1,10 @@
 @font-face {
     font-family: Whyte;
-    src: url(..assets/Whyte-Book.otf);
+    src: url(..assets/Whyte-Book.woff);
     font-family: Whyte Inktrap;
-    src: url(..assets/Whyte-Inktrap-Meduim.otf);
+    src: url(..assets/Whyte-Inktrap-Meduim.woff);
+    font-family: ArmandGrotesk;
+    src: url(..assets/ArmandGrotesk-Regular.woff);
 }
 
 .bg {
@@ -137,7 +139,7 @@ a {
     color: white;
     padding-top: 25px;
     text-align: center;
-    font-family: Whyte Inktrap;
+    font-family: Whyte;
     font-size: 14px;
 }
 
@@ -245,7 +247,7 @@ a {
     padding-left: 15px;
     padding-top: 15px;
     color: white;
-    font-family: Whyte;
+    font-family: Whyte Inktrap;
     font-size: 14px;
 }
 
