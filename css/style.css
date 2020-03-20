@@ -1,10 +1,10 @@
 @font-face {
     font-family: Whyte;
-    src: url(..assets/Whyte-Book.woff);
+    src: url(assets/Whyte-Book.woff);
     font-family: Whyte Inktrap;
-    src: url(..assets/Whyte-Inktrap-Meduim.woff);
+    src: url(assets/Whyte-Inktrap-Meduim.woff);
     font-family: ArmandGrotesk;
-    src: url(..assets/ArmandGrotesk-Regular.woff);
+    src: url(assets/ArmandGrotesk-Regular.woff);
 }
 
 .bg {
