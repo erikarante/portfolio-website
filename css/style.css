@@ -22,16 +22,45 @@
 .chat-box {
     background-color: black;
     width: 1000px;
-    height: 640px;
+    height: 650px;
     border-radius: 10px;
-    display: flex;
     box-shadow: 20px 20px 40px rgba(0,0,0,0.5);
     margin-bottom: 30px;
 }
 
+.chat-title-box {
+    padding-left: 12px;
+    padding-top: 10px;
+    display: flex;
+}
+
+.oval {
+    width: 12px;
+    height: 12px;
+    border-radius: 40px;
+}
+
+.red {
+    background-color: tomato;
+}
+
+.green {
+    margin-left: 5px;
+    background-color: springgreen;
+}
+
+.window-title {
+    width: 100%;
+    font-family: Whyte Inktrap;
+    font-weight: 300;
+    font-size: 14px;
+    color: #959595;
+    text-align: center;
+}
+
 .inner-box {
     background-color: #121212;
-    margin-top: 30px;
+    margin-top: 8px;
     width: 1000px;
     height: 580px;
     border-top: 1px solid #2D2D2D;
