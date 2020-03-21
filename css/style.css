@@ -293,7 +293,17 @@ a {
     margin-left: 20px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 580px) {
+    .menu {
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 580px) {
+
+    .chat-box {
+        visibility: hidden;
+    }
     
     .size-1 {
         width: 295px;
@@ -337,6 +347,11 @@ a {
     
     .pic-5 img {
         width: 295px;
+        padding-bottom: 15px;
+    }
+
+    .pic-h315 img {
+        height: 200px;
         padding-bottom: 15px;
     }
   }
