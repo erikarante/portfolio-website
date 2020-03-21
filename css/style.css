@@ -34,10 +34,11 @@
 .chat-box {
     background-color: black;
     width: 1000px;
-    height: 650px;
+    height: 680px;
     border-radius: 10px;
     box-shadow: 20px 20px 40px rgba(0,0,0,0.5);
-    margin-bottom: 30px;
+    vertical-align: middle;
+    margin-bottom: 15px;
 }
 
 .chat-title-box {
@@ -69,7 +70,7 @@
     background-color: #121212;
     margin-top: 8px;
     width: 1000px;
-    height: 580px;
+    height: 610px;
     border-top: 1px solid #2D2D2D;
     border-bottom: 1px solid #2D2D2D;
     display: flex;
@@ -79,7 +80,7 @@
     color: white;
     display: flex;
     width: 600px;
-    height: 580px;
+    height: 610px;
 }
 
 .diary-content {
@@ -111,6 +112,10 @@
     display: flex;
     height: 60px;
     border-right: 1px solid #222121;
+}
+
+.about {
+    background-color: #1A1A1A;
 }
 
 .icon {
