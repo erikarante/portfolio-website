@@ -182,7 +182,6 @@ a {
     padding-right: 20px;
     padding-bottom: 10px;
     border-radius: 10px;
-    display: flex;
 }
 
 .chat-text {
@@ -294,8 +293,50 @@ a {
     margin-left: 20px;
 }
 
-@media screen and (max-width: 1080px) {
-    .bg {
-        background-color:red;
+@media screen and (max-width: 800px) {
+    
+    .size-1 {
+        width: 120px;
+    }
+    
+    .size-2 {
+        width: 180px;
+    }
+    
+    .size-3 {
+        width: 240px;
+    }
+    
+    .size-4 {
+        width: 300px;
+    }
+    
+    .size-5 {
+        width: 350px;
+    }
+    
+    .pic-1 img {
+        width: 120px;
+        padding-bottom: 15px;
+    }
+    
+    .pic-2 img {
+        width: 180px;
+        padding-bottom: 15px;
+    }
+    
+    .pic-3 img {
+        width: 240px;
+        padding-bottom: 15px;
+    }
+    
+    .pic-4 img {
+        width: 300px;
+        padding-bottom: 15px;
+    }
+    
+    .pic-5 img {
+        width: 350px;
+        padding-bottom: 15px;
     }
   }
