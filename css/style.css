@@ -295,32 +295,48 @@ a {
 
 @media screen and (max-width: 800px) {
     
-    .chat-block {
-        width: 290px;
+    .size-1 {
+        width: 295px;
+    }
+    
+    .size-2 {
+        width: 295px;
+    }
+    
+    .size-3 {
+        width: 295px;
+    }
+    
+    .size-4 {
+        width: 295px;
+    }
+    
+    .size-5 {
+        width: 295px;
     }
     
     .pic-1 img {
-        width: 120px;
+        width: 295px;
         padding-bottom: 15px;
     }
     
     .pic-2 img {
-        width: 180px;
+        width: 295px;
         padding-bottom: 15px;
     }
     
     .pic-3 img {
-        width: 210px;
+        width: 295px;
         padding-bottom: 15px;
     }
     
     .pic-4 img {
-        width: 240px;
+        width: 295px;
         padding-bottom: 15px;
     }
     
     .pic-5 img {
-        width: 290px;
+        width: 295px;
         padding-bottom: 15px;
     }
   }
