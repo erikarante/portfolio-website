@@ -3,21 +3,19 @@
     font-family: 'Whyte';
     font-style: normal;
     font-weight: 400;
-    src: local('ArmandGrotesk'),
-         url('/assets/ArmandGrotesk-Regular.otf') format('otf'), 
-         url('/assets/ArmandGrotesk-Regular.woff') format('woff'),
-         url('/assets/ArmandGrotesk-Regular.ttf') format('ttf'),
-;
+    src: local('Whyte'),
+         url('/assets/Whyte-Regular.woff') format('woff'),
+         url('/assets/Whyte-Regular.ttf') format('ttf'); 
   }
 
 @font-face {
-    font-family: Whyte;
-    src: url(assets/Whyte-Book.woff);
-    font-family: Whyte Inktrap;
-    src: url(assets/Whyte-Inktrap-Meduim.woff);
-    font-family: ArmandGrotesk;
-    src: url(assets/ArmandGrotesk-Regular.woff);
-}
+    font-family: 'Whyte Inktrap';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Whyte-Inktrap'),
+         url('/assets/Whyte-Inktrap-Medium.woff') format('woff'),
+         url('/assets/Whyte-Inktrap-Medium.ttf') format('ttf'); 
+  }
 
 .bg {
     height: 100vh;
