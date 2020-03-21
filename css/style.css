@@ -304,15 +304,15 @@ a {
     }
     
     .size-3 {
-        width: 240px;
+        width: 210px;
     }
     
     .size-4 {
-        width: 300px;
+        width: 240px;
     }
     
     .size-5 {
-        width: 350px;
+        width: 290px;
     }
     
     .pic-1 img {
@@ -326,17 +326,17 @@ a {
     }
     
     .pic-3 img {
-        width: 240px;
+        width: 210px;
         padding-bottom: 15px;
     }
     
     .pic-4 img {
-        width: 300px;
+        width: 240px;
         padding-bottom: 15px;
     }
     
     .pic-5 img {
-        width: 350px;
+        width: 290px;
         padding-bottom: 15px;
     }
   }
