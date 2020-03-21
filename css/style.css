@@ -54,7 +54,7 @@
 .window-title {
     width: 100%;
     font-family: Whyte Inktrap;
-    font-size: 14px;
+    font-size: 13px;
     color: #959595;
     text-align: center;
 }
@@ -124,17 +124,17 @@
 }
 
 .channel-text {
-    margin-top: 10px;
+    margin-top: 12px;
     width: 100%;
     margin-left: 10px;
-    line-height: 120%;
+    line-height: 110%;
 }
 
 .title {
     color: white;
     text-align: left;
     font-family: Whyte Inktrap;
-    font-size: 14px;
+    font-size: 13px;
     border-bottom-color: black;
 }
 
@@ -171,7 +171,7 @@ a {
     padding-top: 25px;
     text-align: center;
     font-family: Whyte;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .chat-block {
@@ -278,7 +278,7 @@ a {
     padding-top: 15px;
     color: white;
     font-family: Whyte Inktrap;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .page-subtitle {
