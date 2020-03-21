@@ -281,14 +281,14 @@ a {
 }
 
 .back-sign {
-    width: 270px;
+    padding-top: 10px;
+    padding-left: 60px;
     text-align: right;
-    font-family: Whyte;
-    font-size: 10px;
-    padding-top: 14px;
 }
 
 .back-sign a{
+    font-family: Whyte;
+    font-size: 10px;
     color: #959595;
 }
 
