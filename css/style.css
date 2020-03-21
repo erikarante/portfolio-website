@@ -295,14 +295,14 @@ a {
 
 @media screen and (min-width: 580px) {
     .menu {
-        visibility: hidden;
+        display: none;
     }
 }
 
 @media screen and (max-width: 580px) {
 
     .chat-box {
-        visibility: hidden;
+        display: none;
     }
     
     .size-1 {
