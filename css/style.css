@@ -295,23 +295,7 @@ a {
 
 @media screen and (max-width: 800px) {
     
-    .size-1 {
-        width: 120px;
-    }
-    
-    .size-2 {
-        width: 180px;
-    }
-    
-    .size-3 {
-        width: 210px;
-    }
-    
-    .size-4 {
-        width: 240px;
-    }
-    
-    .size-5 {
+    .chat-block {
         width: 290px;
     }
     
