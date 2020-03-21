@@ -1,18 +1,14 @@
 
 @font-face {
     font-family: 'Whyte';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Whyte'),
-         url('/assets/Whyte-Regular.woff') format('woff'),
-         url('/assets/Whyte-Regular.ttf') format('ttf'); 
+    src: local('Whyte-Light'),
+         url('/assets/Whyte-Light.woff') format('woff'),
+         url('/assets/Whyte-Light.ttf') format('ttf'); 
   }
 
 @font-face {
     font-family: 'Whyte Inktrap';
-    font-style: normal;
-    font-weight: 600;
-    src: local('Whyte-Inktrap'),
+    src: local('Whyte-Inktrap-Medium'),
          url('/assets/Whyte-Inktrap-Medium.woff') format('woff'),
          url('/assets/Whyte-Inktrap-Medium.ttf') format('ttf'); 
   }
@@ -58,7 +54,6 @@
 .window-title {
     width: 100%;
     font-family: Whyte Inktrap;
-    font-weight: 300;
     font-size: 14px;
     color: #959595;
     text-align: center;
@@ -133,7 +128,6 @@
     width: 100%;
     margin-left: 10px;
     line-height: 120%;
-    font-weight: 200;
 }
 
 .title {
@@ -141,7 +135,6 @@
     text-align: left;
     font-family: Whyte Inktrap;
     font-size: 14px;
-    font-weight: 400;
     border-bottom-color: black;
 }
 
@@ -153,8 +146,7 @@ a {
     color: #DDDDDD;
     text-align: left;
     font-family: Whyte;
-    font-size: 14px;
-    font-weight: 200;
+    font-size: 13px;
 }
 
 .time-date {
@@ -197,9 +189,8 @@ a {
     color: #DDDDDD;
     text-align: left;
     font-family: Whyte;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 140%;
-    font-weight: 200;
 }
 
 .chat-time {
