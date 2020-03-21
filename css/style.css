@@ -1,3 +1,15 @@
+
+@font-face {
+    font-family: 'Whyte';
+    font-style: normal;
+    font-weight: 400;
+    src: local('ArmandGrotesk'),
+         url('/assets/ArmandGrotesk-Regular.otf') format('otf'), 
+         url('/assets/ArmandGrotesk-Regular.woff') format('woff'),
+         url('/assets/ArmandGrotesk-Regular.ttf') format('ttf'),
+;
+  }
+
 @font-face {
     font-family: Whyte;
     src: url(assets/Whyte-Book.woff);
@@ -78,13 +90,13 @@
 .menu {
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 100%;
 }
 
 .menu-block {
     background-color: #121212;
     display: flex;
-    height: 60px;
+    height: 57px;
     border-bottom: 1px solid #2D2D2D;
     border-right: 1px solid #2D2D2D;
 }
@@ -115,7 +127,7 @@
 
 .channel-text {
     margin-top: 10px;
-    width: 300px;
+    width: 100%;
     margin-left: 10px;
     line-height: 120%;
     font-weight: 200;
