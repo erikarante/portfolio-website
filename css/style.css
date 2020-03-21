@@ -280,6 +280,18 @@ a {
     font-size: 13px;
 }
 
+.back-sign {
+    width: 270px;
+    text-align: right;
+    font-family: Whyte;
+    font-size: 10px;
+    padding-top: 14px;
+}
+
+.back-sign a{
+    color: #959595;
+}
+
 .page-subtitle {
     display: flex;
     color: #959595;
@@ -297,14 +309,30 @@ a {
     .menu {
         display: none;
     }
+
+    .back-sign a{
+        visibility: hidden;
+    }
 }
 
 @media screen and (max-width: 580px) {
 
+    .bg {
+        background-color: #121212;
+    }
+
     .chat-box {
         display: none;
     }
-    
+
+    .inner-box {
+        display: none;
+    }
+
+    .entry {
+        display: none;
+    }
+
     .size-1 {
         width: 295px;
     }
