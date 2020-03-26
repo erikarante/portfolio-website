@@ -385,7 +385,7 @@ a {
 @media screen and (max-width: 580px) {
 
     .bg {
-        height: 0px;
+        height: 38px;
         background-color: #121212;
     }
 
